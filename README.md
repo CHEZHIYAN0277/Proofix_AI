@@ -24,6 +24,12 @@ A code model can produce a convincing diff in seconds. It cannot, by itself, pro
 
 ProoFix turns those questions into a workflow. Every repair carries reproduction evidence, root-cause citations, affected-file context, test results, mutation results, and a differential security scan before the system recommends a PR route.
 
+## Problem evidence
+
+Public research documents developer frustration with nearly correct AI output and the work required to verify generated changes. We collected the sources, their limitations, and the questions we still need to test in our [developer research notes](docs/USER_RESEARCH.md).
+
+The notes include clearly labeled fictional scenarios from different company settings. They are not user interviews. ProoFix-specific review-time savings have not yet been measured.
+
 ## What you get
 
 | Input | Output |
